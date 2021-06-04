@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">prototype-android</string>
+    <string name="welcome_to_android_app_development">Bienvenue dans l\'application de développement Android</string>
+    <string name="android_logo">logo-android</string>
+    <string name="calculate">Calculate</string>
+    <string name="phone_hint" />
+    <string name="tip">tip</string>
+    <string name="tip_percentage">tip_percentage</string>
+    <string name="total">total</string>
+    <string name="enter_amount" />
+</resources>
