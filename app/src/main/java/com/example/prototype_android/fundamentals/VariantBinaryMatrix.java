@@ -1,4 +1,4 @@
-package com.example.prototype_android;
+package com.example.prototype_android.fundamentals;
 
 public class VariantBinaryMatrix {
     public static void main(String[] args) {

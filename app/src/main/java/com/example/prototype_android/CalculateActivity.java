@@ -9,6 +9,7 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+
 import java.text.NumberFormat;
 
 public class CalculateActivity extends AppCompatActivity {
@@ -62,9 +63,12 @@ public class CalculateActivity extends AppCompatActivity {
                 }
 
                 @Override
-                public void onStartTrackingTouch(SeekBar seekBar) { }
+                public void onStartTrackingTouch(SeekBar seekBar) {
+                }
+
                 @Override
-                public void onStopTrackingTouch(SeekBar seekBar) { }
+                public void onStopTrackingTouch(SeekBar seekBar) {
+                }
             };
 
     private final TextWatcher amountEditTextWatcher = new TextWatcher() {
@@ -73,8 +77,7 @@ public class CalculateActivity extends AppCompatActivity {
             try {
                 billAmount = Double.parseDouble(s.toString()) / 100.0;
                 amountTextView.setText(currencyFormat.format(billAmount));
-            }
-            catch (NumberFormatException e) {
+            } catch (NumberFormatException e) {
                 amountTextView.setText("");
                 billAmount = 0.0;
             }
@@ -82,9 +85,12 @@ public class CalculateActivity extends AppCompatActivity {
         }
 
         @Override
-        public void afterTextChanged(Editable s) { }
+        public void afterTextChanged(Editable s) {
+        }
+
         @Override
         public void beforeTextChanged(
-                CharSequence s, int start, int count, int after) { }
+                CharSequence s, int start, int count, int after) {
+        }
     };
 }

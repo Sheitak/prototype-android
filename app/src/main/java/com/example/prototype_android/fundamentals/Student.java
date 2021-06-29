@@ -1,4 +1,4 @@
-package com.example.prototype_android;
+package com.example.prototype_android.fundamentals;
 
 import java.util.ArrayList;
 import java.util.Scanner;
